@@ -1,11 +1,8 @@
 import graph
 from preprocessing import Preprocessor
-from collections import deque
 from copy import deepcopy
 
 # Base class to run the algorithm
-
-
 class CutModel:
     # Initialise the class object
     def __init__(self, g):
