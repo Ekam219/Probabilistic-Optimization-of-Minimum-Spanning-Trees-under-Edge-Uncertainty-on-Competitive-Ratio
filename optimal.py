@@ -111,8 +111,8 @@ def optimalQuerySet(g):
                 result += dfs(u, 0)
     
     # Find minimum vertex cover using Konig's theorem
-    visited_from = [False] * len(leftEdges)]
-    visited_to = [False] * len(rightEdges)]
+    visited_from = [False] * len(leftEdges)
+    visited_to = [False] * len(rightEdges)
     
     # Mark unmatched left nodes
     q = deque()
